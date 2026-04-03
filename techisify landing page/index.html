@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techisify Technologies | Innovating Your Digital World</title>
+    <meta name="description" content="Techisify Technologies provides premium web development, graphic design, and IT services in Tanzania.">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">TECHISIFY<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact" class="btn-primary">Get in Touch</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content" data-aos="fade-up">
+            <h1>Techisify Technologies</h1>
+            <p class="tagline">Innovating Your Digital World</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn-primary">Get in Touch</a>
+                <a href="#services" class="btn-outline">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container grid">
+            <div class="about-img" data-aos="fade-right">
+                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=800" alt="Techisify Team Working">
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <h2 class="section-title">Who We Are</h2>
+                <p>Techisify Technologies is a forward-thinking tech company dedicated to bridging the digital gap. Based in the heart of Tanzania's innovation hub, we provide high-end digital solutions including web development, graphic design, and comprehensive IT services.</p>
+                <p>We believe in the power of technology to transform businesses and lives across Africa.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services section bg-dark">
+        <div class="container">
+            <h2 class="section-title text-center">Our Expertise</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in">
+                    <i data-lucide="code-2" class="service-icon"></i>
+                    <h3>Website Development</h3>
+                    <p>Building responsive, fast, and SEO-friendly websites tailored to your brand.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i data-lucide="palette" class="service-icon"></i>
+                    <h3>Graphic Design</h3>
+                    <p>Modern visuals and branding that capture attention and communicate your message.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i data-lucide="video" class="service-icon"></i>
+                    <h3>Video Editing</h3>
+                    <p>Professional post-production for commercials, social media, and documentaries.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+                    <i data-lucide="monitor-dot" class="service-icon"></i>
+                    <h3>IT Support</h3>
+                    <p>Reliable technical assistance to keep your business running without a hitch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <h2 class="section-title text-center">Recent Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=600" alt="Work 1">
+                    <div class="portfolio-overlay">
+                        <h4>E-Commerce Hub</h4>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=600" alt="Work 2">
+                    <div class="portfolio-overlay">
+                        <h4>Brand Identity</h4>
+                        <p>Graphic Design</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=600" alt="Work 3">
+                    <div class="portfolio-overlay">
+                        <h4>Corporate App</h4>
+                        <p>UI/UX Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section bg-dark">
+        <div class="container">
+            <h2 class="section-title text-center">Let's Talk</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <i data-lucide="phone"></i>
+                        <p>0711600554</p>
+                    </div>
+                    <div class="info-item">
+                        <i data-lucide="mail"></i>
+                        <p>techisify@gmail.com</p>
+                    </div>
+                </div>
+                
+                <form id="contact-form" action="https://formspree.io/f/your-endpoint" method="POST" class="contact-form" data-aos="fade-left">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                    <p id="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Techisify Technologies. All Rights Reserved.</p>
+                <div class="socials">
+                    <a href="#"><i data-lucide="facebook"></i></a>
+                    <a href="#"><i data-lucide="instagram"></i></a>
+                    <a href="#"><i data-lucide="linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/255711600554" class="whatsapp-float" target="_blank">
+        <i data-lucide="message-circle"></i>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+        lucide.createIcons();
+    </script>
+</body>
+</html>
